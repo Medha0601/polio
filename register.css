@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* image */
+.bg{
+    width: 100%;
+    position:absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+/* heading part */
+
+h1{
+    font-size: 40px;
+    padding-top: 2%;
+    padding-bottom: 3px;
+    color: #EEEDDE;
+
+}
+
+p{
+    color: #EEEDDE;
+}
+
+
+/* submit message */
+.submitMsg{
+    color: #D82148;
+    font-size: 30px;
+}
+
+
+
+.container h1, p{
+    text-align: center;
+    margin: auto;
+    font-family: 'Acme', sans-serif;
+   
+
+}
+
+
+
+
+/* p{
+    
+} */
+
+form{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea{
+    padding: 2px;
+   
+    margin: 11px auto;
+    width: 80%;
+    padding: 5px;
+    font-size: medium;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: block;
+    margin: 3px auto;
+    padding: 3px;
+    width: 10%;
+    color: wheat;
+    background-color: #203239;
+    font-size: 25px;
+
+}
